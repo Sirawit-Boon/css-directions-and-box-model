@@ -1,1 +1,45 @@
-/* Start coding here */
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Mali", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-color: rgb(117, 156, 172);
+}
+h1 {
+  margin: 0px;
+}
+.logo {
+  padding: 30px;
+  color: rgb(19, 66, 104);
+}
+
+.box-container {
+  width: 40vw;
+  height: 15vh;
+  margin: 30px;
+  color: rgb(19, 66, 104);
+}
+
+.box-text-cafe {
+  border: 5px solid rgb(19, 66, 104);
+  padding-left: 20px;
+  background-color: rgb(243, 243, 243);
+}
+
+.box-text-travel {
+  border: 5px solid rgb(19, 66, 104);
+  padding-left: 20px;
+  margin-top: 30px;
+  background-color: rgb(243, 243, 243);
+}
+
+img {
+  width: 20vw;
+  height: 20vh;
+}
