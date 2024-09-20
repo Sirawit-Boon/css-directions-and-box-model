@@ -1,1 +1,35 @@
 /* Start coding here */
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.outer_grey{
+    background-color: lightgrey;
+    padding: 16px; /*lightgrey มีขนาด 16px*/
+    height: 100vh;
+    
+}
+.in_black{
+    background-color: black;
+    padding: 16px; /*black มีขนาด 16px*/
+    height: 100%;
+}
+
+.outer_content_crimson{
+    background-color: crimson;
+    padding: 24px; /*crimson มีขนาด 16px*/
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.content_yellow{
+    background-color: khaki;
+    height: 100%;
+    padding: 30px; /*TechUp มีระยะห่างจากขอบ 30px*/
+    display: flex; /*make similar to example*/
+    justify-content: center; /*make similar to example*/
+}
+
+.inside_text{
+    font-size: 72px; /*TechUp มีขนาด 72px*/
+}

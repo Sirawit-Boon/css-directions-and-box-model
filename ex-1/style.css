@@ -1,5 +1,7 @@
 /* Start coding here */
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 
 * {
     font-family: "sarabun";
@@ -31,8 +33,9 @@ nav h1{
     color: rgb(7, 58, 92);
 }
 p{
-    font-family: "Sacramento";
-    font-size: 24px;
+    font-family: "Pacifico";
+    font-size: 16px;
+    color: rgb(25, 130, 201);
 }
 
 .css-box-model-hackhours-1 h2{
