@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CSS Direction and Box Model - Ex 2</title>
+  </head>
+  <style>
+    body {
+      height: 100vh;
+      width: 100vw;
+      background-color: khaki;
+      border: 16px solid lightgray;
+      margin: 0px
+    }
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./style.css" />
-  <title>CSS Direction and Box Model - Ex 2</title>
-</head>
+    .container {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      border: 16px solid ;
+    }
 
-<body>
-  <!-- Start coding here -->
-</body>
+    .box-container {
+      width: 100%;
+      height: 100%;
+      border: 16px solid crimson;
+    }
 
+    h1 {
+      font-size: 72px;
+      margin: 30px;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <div class="box-container">
+        <div class="box-inside">
+          <h1>Tech Up</h1>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
