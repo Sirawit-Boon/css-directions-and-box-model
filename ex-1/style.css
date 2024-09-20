@@ -1,24 +1,26 @@
 /* Start coding here */
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400;700&display=swap');
 
 
 * {
-    font-family: "sarabun";
+    
     margin: 0;
 }
 
 nav{
     background-color: rgb(132, 176, 202);
-    color: rgb(7, 58, 92);
+    color: #183B56;
     height: 70px;
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+    
 }
 
 nav h1{
     padding-left: 50px;
+    font-family: "Sarabun";
 }
 
 .recommended_topics-1,.recommended_topics-2{
@@ -28,20 +30,25 @@ nav h1{
     padding: 30px;
     margin-bottom: 30px;
     margin-left: 30px;
-    background-color: rgb(212, 227, 247);
-    border: 2px solid rgb(7, 58, 92);
+    background-color: #E4E9ED;
+    border: 2px solid #183B56;
     color: rgb(7, 58, 92);
 }
 p{
-    font-family: "Pacifico";
+    font-family: "Redacted Script";
     font-size: 16px;
-    color: rgb(25, 130, 201);
+    color: #183B56;
 }
 
 .css-box-model-hackhours-1 h2{
     margin-bottom: 20px;
+    font-size: 24px;
 }
 
 .css-box-model-hackhours-1 img{
     margin-bottom: 20px;
+}
+
+img{
+border: 2px solid #AAAAAA;
 }
