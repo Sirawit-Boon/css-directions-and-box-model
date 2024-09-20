@@ -1,1 +1,57 @@
 /* Start coding here */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+nav {
+  background-color: #92aabd;
+  width: 1433px;
+  height: 120px;
+  font-family: "Sarabun";
+  font-size: 32px;
+  color: #183856;
+}
+
+nav h1 {
+  padding: 20px;
+}
+
+.blog1 {
+  border: 3px solid #183856;
+  color: #183b56;
+  background-color: #92aabd;
+  width: 536px;
+  height: 321;
+  margin: 30px;
+  padding: 20px;
+}
+
+.blog1 h1 {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.blog1 p {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.blog2 {
+  border: 3px solid #183856;
+  color: #183b56;
+  background-color: #92aabd;
+  width: 536px;
+  height: 321;
+  margin: 30px;
+  padding: 20px;
+}
+
+.blog2 h1 {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.blog2 p {
+  font-size: 16px;
+  padding-top: 10px;
+}
