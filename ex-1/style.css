@@ -1,1 +1,44 @@
 /* Start coding here */
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+* {
+    font-family: "sarabun";
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(132, 176, 202);
+    color: rgb(7, 58, 92);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+nav h1{
+    padding-left: 50px;
+}
+
+.recommended_topics-1,.recommended_topics-2{
+    margin-bottom: 50px;
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    background-color: rgb(212, 227, 247);
+    border: 2px solid rgb(7, 58, 92);
+    color: rgb(7, 58, 92);
+}
+p{
+    font-family: "Sacramento";
+    font-size: 24px;
+}
+
+.css-box-model-hackhours-1 h2{
+    margin-bottom: 20px;
+}
+
+.css-box-model-hackhours-1 img{
+    margin-bottom: 20px;
+}
